@@ -7,23 +7,27 @@ import GlobalContext from './GlobalContext';
 
 import Players from './Players';
 import Lineups from './Lineups';
-import Test from './Test';
-import Other from './Other';
+
+import PLAYERS from './data/PLAYERS';
 
 const App = () => {
 
-  const options = useState({
-  	a: 1,
-  	b: 2,
-  	c: 3
-  })
+  const [players, setPlayers] = useState(PLAYERS);
+  const [lineups, setLineups] = useState([]);
+  const [slots, setSlots] = useState([]);
+
+  function inc(){
+    //setOne(7);
+  }
 
   return (
-  	<GlobalContext.Provider value={options}>
-      <Test/>
-      <Other/>
-    </GlobalContext.Provider>
-  );
+    players.map(player => {
+      return(
+        <h1 key={player.ID}>{player.Name}</h1>
+      )
+    })
+  )
+
 };
 
 ReactDOM.render(<App />, document.getElementById("root"));
