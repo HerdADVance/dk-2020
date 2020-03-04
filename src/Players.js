@@ -1,16 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
+import PLAYERS from './data/PLAYERS';
+
+import Player from './Player'
 
 const Players = (props) => {
+
+	const [players, setPlayers] = useState(PLAYERS);
 
 	function handleClick(){
 
 	}
 
 	return (
-		<div className="list">
-			<p>{props.a}</p>
-			<button onClick={props.inc}>Click me</button>
-		</div>
+		players.map(player => {
+			return(
+				<Player
+					key={player.ID}
+					id={player.ID}
+					name={player.Name}
+					position={player.Position}
+					salary={player.Salary}
+					team={player.TeamAbbrev}
+				/>
+			)
+		})
 	);
 
 };
