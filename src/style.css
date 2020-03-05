@@ -439,6 +439,10 @@ td.lineup-total-salary{
 }
 
 
+
+/* CFB TEAMS */
+.UT{background: orange; color: white;}
+
 /* XFL TEAMS */
 .team{font-weight: bold;}
 .lineup .team{font-size: 10px;}
