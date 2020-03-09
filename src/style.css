@@ -442,6 +442,13 @@ td.lineup-total-salary{
 
 /* CFB TEAMS */
 .UT{background: orange; color: white;}
+.UTAH{background: red; color: white;}
+.NAVY{background: navy; color: gold;}
+.KSU{background: silver; color: purple;}
+.ASU{background: gold; color: maroon;}
+.GAST{background: blue; color: white;}
+.FSU{background: maroon; color: gold;}
+.WYO{background: brown; color: yellow;}
 
 /* XFL TEAMS */
 .team{font-weight: bold;}

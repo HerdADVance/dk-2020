@@ -71,6 +71,27 @@ const Players = (props) => {
 	   	return filteredPositions
 	}
 
+	// function filterByTeam(clickedTeam){
+
+	// 	let filteredTeams = []
+	    
+	//     switch(clickedPosition){
+	//     	case 'ALL':
+	//       		filteredPositions = POSITIONS
+	//       		break;
+
+	//     	default:
+	//       		let foundAcceptedPosition = ROSTER.filter(function (spot) {
+	//         		return spot.position === clickedPosition
+	//       		});
+
+	//       		filteredPositions = foundAcceptedPosition[0].accepts;
+	//     		break;
+	//    	}
+
+	//    	return filteredPositions
+	// }
+
 	function getTeams(){
 		let sortedGames = [];
 
@@ -118,7 +139,15 @@ const Players = (props) => {
   	}
 
   	function handleTeamClick(team){
+    	
+  		// Update selected team
     	setClickedTeam(team)
+
+    	// Filter players
+    	let teamToFilter = team
+    	let filteredPlayers = filterPlayers(teamsToFilter)
+    	setPlayers(filteredPlayers)
+
   	}
 
 
