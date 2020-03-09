@@ -1,5 +1,6 @@
 const PLAYERS = [
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Malcolm Perry (14039251)",
     "Name": "Malcolm Perry",
@@ -11,6 +12,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 32.96
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Zack Moss (14039253)",
     "Name": "Zack Moss",
@@ -22,6 +24,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 27.02
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Sam Ehlinger (14039256)",
     "Name": "Sam Ehlinger",
@@ -33,6 +36,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 29.69
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Devin Duvernay (14039258)",
     "Name": "Devin Duvernay",
@@ -44,6 +48,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 26.08
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Tyler Huntley (14039261)",
     "Name": "Tyler Huntley",
@@ -55,6 +60,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 19.18
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Dan Ellington (14039263)",
     "Name": "Dan Ellington",
@@ -66,6 +72,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 22.29
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Jayden Daniels (14039265)",
     "Name": "Jayden Daniels",
@@ -77,6 +84,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 22.26
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Tra Barnett (14039267)",
     "Name": "Tra Barnett",
@@ -88,6 +96,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 20.96
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Skylar Thompson (14039270)",
     "Name": "Skylar Thompson",
@@ -99,6 +108,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 19.32
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "James Blackman (14039272)",
     "Name": "James Blackman",
@@ -110,6 +120,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 14.24
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Tamorrion Terry (14039274)",
     "Name": "Tamorrion Terry",
@@ -121,6 +132,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 17.2
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Keaontay Ingram (14039277)",
     "Name": "Keaontay Ingram",
@@ -132,6 +144,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 15.01
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Levi Williams (14039280)",
     "Name": "Levi Williams",
@@ -143,6 +156,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 10.58
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Collin Johnson (14039282)",
     "Name": "Collin Johnson",
@@ -154,6 +168,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 16.95
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Xazavian Valladay (14039285)",
     "Name": "Xazavian Valladay",
@@ -165,6 +180,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 16.37
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Jamale Carothers (14039288)",
     "Name": "Jamale Carothers",
@@ -176,6 +192,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 23.46
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Frank Darby (14039291)",
     "Name": "Frank Darby",
@@ -187,6 +204,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 12.88
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Nick Szpor (14039294)",
     "Name": "Nick Szpor",
@@ -198,6 +216,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Roschon Johnson (14039299)",
     "Name": "Roschon Johnson",
@@ -209,6 +228,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 12.9
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Cornelius McCoy (14039296)",
     "Name": "Cornelius McCoy",
@@ -220,6 +240,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 13.52
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Casey Thompson (14039302)",
     "Name": "Casey Thompson",
@@ -231,6 +252,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 3.62
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "James Gilbert (14039304)",
     "Name": "James Gilbert",
@@ -242,6 +264,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 12.47
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Destin Coates (14039307)",
     "Name": "Destin Coates",
@@ -253,6 +276,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 11.63
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Seth Paige (14039310)",
     "Name": "Seth Paige",
@@ -264,6 +288,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 10.07
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Sam Pinckney (14039313)",
     "Name": "Sam Pinckney",
@@ -275,6 +300,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 12.78
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Brennan Eagles (14039316)",
     "Name": "Brennan Eagles",
@@ -286,6 +312,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 10.98
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Brant Kuithe (14039319)",
     "Name": "Brant Kuithe",
@@ -297,6 +324,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 11.73
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Cam Akers (14039322)",
     "Name": "Cam Akers",
@@ -308,6 +336,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 26.72
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Eno Benjamin (14039325)",
     "Name": "Eno Benjamin",
@@ -319,6 +348,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 22.75
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Dalen Morris (14039328)",
     "Name": "Dalen Morris",
@@ -330,6 +360,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0.8
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Cornelious Brown (14039330)",
     "Name": "Cornelious Brown",
@@ -341,6 +372,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 1.9
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Jason Shelley (14039332)",
     "Name": "Jason Shelley",
@@ -352,6 +384,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 1.85
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Bryan Thompson (14039334)",
     "Name": "Bryan Thompson",
@@ -363,6 +396,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 10.78
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Jordan Travis (14039337)",
     "Name": "Jordan Travis",
@@ -374,6 +408,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 12.69
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "D.J. Matthews (14039339)",
     "Name": "D.J. Matthews",
@@ -385,6 +420,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 8.39
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Ethan Long (14039342)",
     "Name": "Ethan Long",
@@ -396,6 +432,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 1.07
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Devonta'e Henry-Cole (14039344)",
     "Name": "Devonta'e Henry-Cole",
@@ -407,6 +444,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 5.22
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Jordon Brown (14039347)",
     "Name": "Jordon Brown",
@@ -418,6 +456,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 8.75
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Malik Knowles (14039350)",
     "Name": "Malik Knowles",
@@ -429,6 +468,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 8.78
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Jake Smith (14039353)",
     "Name": "Jake Smith",
@@ -440,6 +480,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 9.7
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Kyle Williams (14039356)",
     "Name": "Kyle Williams",
@@ -451,6 +492,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 8.25
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Samson Nacua (14039359)",
     "Name": "Samson Nacua",
@@ -462,6 +504,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 9.18
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Tre'Shaun Harrison (14039362)",
     "Name": "Tre'Shaun Harrison",
@@ -473,6 +516,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 6.79
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Dalton Schoen (14039365)",
     "Name": "Dalton Schoen",
@@ -484,6 +528,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 9.68
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Ben Ballard (14039370)",
     "Name": "Ben Ballard",
@@ -495,6 +540,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Sam Saxton (14039372)",
     "Name": "Sam Saxton",
@@ -506,6 +552,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Drew Lisk (14039374)",
     "Name": "Drew Lisk",
@@ -517,6 +564,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0.89
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Zach Hymas (14039376)",
     "Name": "Zach Hymas",
@@ -528,6 +576,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Cameron Rising (14039378)",
     "Name": "Cameron Rising",
@@ -539,6 +588,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Blake Archuleta (14039380)",
     "Name": "Blake Archuleta",
@@ -550,6 +600,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Carter Robinson (14039382)",
     "Name": "Carter Robinson",
@@ -561,6 +612,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Jaylen Dixon (14039384)",
     "Name": "Jaylen Dixon",
@@ -572,6 +624,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 6.57
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Alex Hornibrook (14039387)",
     "Name": "Alex Hornibrook",
@@ -583,6 +636,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 12.59
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Wyatt Rector (14039389)",
     "Name": "Wyatt Rector",
@@ -594,6 +648,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Alex Eleyssami (14039391)",
     "Name": "Alex Eleyssami",
@@ -605,6 +660,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Gino English (14039393)",
     "Name": "Gino English",
@@ -616,6 +672,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Khalan Laborn (14039395)",
     "Name": "Khalan Laborn",
@@ -627,6 +684,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 7.03
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Joey Yellen (14039398)",
     "Name": "Joey Yellen",
@@ -638,6 +696,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 25.18
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Trenton Bourguet (14039400)",
     "Name": "Trenton Bourguet",
@@ -649,6 +708,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Nick Ast (14039402)",
     "Name": "Nick Ast",
@@ -660,6 +720,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0.41
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Ryan Henington (14039404)",
     "Name": "Ryan Henington",
@@ -671,6 +732,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "John Holcombe II (14039406)",
     "Name": "John Holcombe II",
@@ -682,6 +744,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 2.49
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Jaren Lewis (14039408)",
     "Name": "Jaren Lewis",
@@ -693,6 +756,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Chris Herron (14039410)",
     "Name": "Chris Herron",
@@ -704,6 +768,7 @@ const PLAYERS = [
     "AvgPointsPerGame": -0.1
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Tyger Goslin (14039412)",
     "Name": "Tyger Goslin",
@@ -715,6 +780,7 @@ const PLAYERS = [
     "AvgPointsPerGame": -0.2
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Perry Olsen (14039414)",
     "Name": "Perry Olsen",
@@ -726,6 +792,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 3.4
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Maasai Maynor (14039416)",
     "Name": "Maasai Maynor",
@@ -737,6 +804,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Sean Chambers (14039368)",
     "Name": "Sean Chambers",
@@ -748,6 +816,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 23.54
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Tyler Vander Waal (14039418)",
     "Name": "Tyler Vander Waal",
@@ -759,6 +828,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 7.01
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Ryan Marquez (14039420)",
     "Name": "Ryan Marquez",
@@ -770,6 +840,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Titus Swen (14039422)",
     "Name": "Titus Swen",
@@ -781,6 +852,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 8.38
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Jamil Muhammad (14039425)",
     "Name": "Jamil Muhammad",
@@ -792,6 +864,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "QB",
     "Name + ID": "Kierston Harvey (14039427)",
     "Name": "Kierston Harvey",
@@ -803,6 +876,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0.1
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Demari Simpkins (14039429)",
     "Name": "Demari Simpkins",
@@ -814,6 +888,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 7.02
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Deonte Sheffield (14039432)",
     "Name": "Deonte Sheffield",
@@ -825,6 +900,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 5.4
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Raghib Ismail Jr. (14039435)",
     "Name": "Raghib Ismail Jr.",
@@ -836,6 +912,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 7.23
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "A.J. Carter (14039438)",
     "Name": "A.J. Carter",
@@ -847,6 +924,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0.91
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Malcolm Epps (14039450)",
     "Name": "Malcolm Epps",
@@ -858,6 +936,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 6.13
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Gabe Nabers (14039441)",
     "Name": "Gabe Nabers",
@@ -869,6 +948,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 7.01
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "CJ Williams (14039444)",
     "Name": "CJ Williams",
@@ -880,6 +960,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 8.67
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Brett Brenton (14039447)",
     "Name": "Brett Brenton",
@@ -891,6 +972,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 2.54
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Devin Brumfield (14039456)",
     "Name": "Devin Brumfield",
@@ -902,6 +984,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 4.12
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Britain Covey (14039459)",
     "Name": "Britain Covey",
@@ -913,6 +996,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 4.72
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Brandon Aiyuk (14039453)",
     "Name": "Brandon Aiyuk",
@@ -924,6 +1008,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 21.15
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Anthony Grant (14039462)",
     "Name": "Anthony Grant",
@@ -935,6 +1020,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Mychal Cooper (14039465)",
     "Name": "Mychal Cooper",
@@ -946,6 +1032,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 6.53
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Ryan Mitchell (14039468)",
     "Name": "Ryan Mitchell",
@@ -957,6 +1044,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 7.7
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Cole Fotheringham (14039471)",
     "Name": "Cole Fotheringham",
@@ -968,6 +1056,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 3.95
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Austin Conway (14039474)",
     "Name": "Austin Conway",
@@ -979,6 +1068,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 4.84
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Harry Trotter (14039477)",
     "Name": "Harry Trotter",
@@ -990,6 +1080,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 4.43
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Chabastin Taylor (14039480)",
     "Name": "Chabastin Taylor",
@@ -1001,6 +1092,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 6.42
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Joshua Youngblood (14039483)",
     "Name": "Joshua Youngblood",
@@ -1012,6 +1104,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 4.58
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Nelson Smith (14039486)",
     "Name": "Nelson Smith",
@@ -1023,6 +1116,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 8.08
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "OJ Davis (14039489)",
     "Name": "OJ Davis",
@@ -1034,6 +1128,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 5.6
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Phillip Brooks (14039501)",
     "Name": "Phillip Brooks",
@@ -1045,6 +1140,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 5.32
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Josh Harshman (14039492)",
     "Name": "Josh Harshman",
@@ -1056,6 +1152,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 7.11
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Ayden Eberhardt (14039495)",
     "Name": "Ayden Eberhardt",
@@ -1067,6 +1164,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 3.53
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Devin Gentry (14039498)",
     "Name": "Devin Gentry",
@@ -1078,6 +1176,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 6.12
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Daniel Young (14039504)",
     "Name": "Daniel Young",
@@ -1089,6 +1188,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 6.93
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Keith Gavin (14039507)",
     "Name": "Keith Gavin",
@@ -1100,6 +1200,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 3.84
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Keoni-Kordell Makekau (14039516)",
     "Name": "Keoni-Kordell Makekau",
@@ -1111,6 +1212,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 4.06
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Jonathan Ifedi (14039510)",
     "Name": "Jonathan Ifedi",
@@ -1122,6 +1224,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 5.47
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Roger Carter (14039513)",
     "Name": "Roger Carter",
@@ -1133,6 +1236,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 6.74
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Curtis Hodges (14039519)",
     "Name": "Curtis Hodges",
@@ -1144,6 +1248,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 3.6
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Tyler Burns (14039522)",
     "Name": "Tyler Burns",
@@ -1155,6 +1260,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 6.7
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Joe Ervin (14039525)",
     "Name": "Joe Ervin",
@@ -1166,6 +1272,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 5.17
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Jacardia Wright (14039528)",
     "Name": "Jacardia Wright",
@@ -1177,6 +1284,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 8.95
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Jordan Whittington (14039531)",
     "Name": "Jordan Whittington",
@@ -1188,6 +1296,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 3.7
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "John Burt (14039534)",
     "Name": "John Burt",
@@ -1199,6 +1308,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 5.4
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Cade Brewer (14039537)",
     "Name": "Cade Brewer",
@@ -1210,6 +1320,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 5.15
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Tre' McKitty (14039540)",
     "Name": "Tre' McKitty",
@@ -1221,6 +1332,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 5.23
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Nick Johnson (14039543)",
     "Name": "Nick Johnson",
@@ -1232,6 +1344,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Jordan Kerley (14039546)",
     "Name": "Jordan Kerley",
@@ -1243,6 +1356,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 2.82
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Wykeen Gill (14039549)",
     "Name": "Wykeen Gill",
@@ -1254,6 +1368,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 6.84
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Nick Lenners (14039552)",
     "Name": "Nick Lenners",
@@ -1265,6 +1380,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 3.92
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Chance Warren (14039555)",
     "Name": "Chance Warren",
@@ -1276,6 +1392,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 4.39
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Derrick Vickers (14039558)",
     "Name": "Derrick Vickers",
@@ -1287,6 +1404,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 4.46
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Geordon Porter (14039561)",
     "Name": "Geordon Porter",
@@ -1298,6 +1416,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 2.7
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Ricky Pearsall (14039564)",
     "Name": "Ricky Pearsall",
@@ -1309,6 +1428,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 2.82
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Tazh Maloy (14039567)",
     "Name": "Tazh Maloy",
@@ -1320,6 +1440,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 3.98
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Austin Clemetson (14039570)",
     "Name": "Austin Clemetson",
@@ -1331,6 +1452,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "John Okwoli (14039573)",
     "Name": "John Okwoli",
@@ -1342,6 +1464,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 3
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Jackson Marcotte (14039576)",
     "Name": "Jackson Marcotte",
@@ -1353,6 +1476,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 4.21
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Terrance Dixon (14039579)",
     "Name": "Terrance Dixon",
@@ -1364,6 +1488,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 11.6
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Terrell Perriman (14039582)",
     "Name": "Terrell Perriman",
@@ -1375,6 +1500,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 2.9
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Warren Thompson (14039585)",
     "Name": "Warren Thompson",
@@ -1386,6 +1512,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 3.78
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Camren McDonald (14039588)",
     "Name": "Camren McDonald",
@@ -1397,6 +1524,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 1.72
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Jordan Young (14039591)",
     "Name": "Jordan Young",
@@ -1408,6 +1536,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 4.1
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Myles Fells (14039594)",
     "Name": "Myles Fells",
@@ -1419,6 +1548,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 2.31
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Jaylon Watson (14039597)",
     "Name": "Jaylon Watson",
@@ -1430,6 +1560,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Aubry Payne (14039600)",
     "Name": "Aubry Payne",
@@ -1441,6 +1572,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 8.68
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Jordan Wilmore (14039603)",
     "Name": "Jordan Wilmore",
@@ -1452,6 +1584,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 2.52
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "TJ Green (14039606)",
     "Name": "TJ Green",
@@ -1463,6 +1596,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 2.13
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Solomon Enis (14039609)",
     "Name": "Solomon Enis",
@@ -1474,6 +1608,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 3.55
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Adarius Dent (14039612)",
     "Name": "Adarius Dent",
@@ -1485,6 +1620,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0.9
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Ryan Newsome (14039615)",
     "Name": "Ryan Newsome",
@@ -1496,6 +1632,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 2.73
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Tommy Hudson (14039618)",
     "Name": "Tommy Hudson",
@@ -1507,6 +1644,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 2.55
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Nolan Matthews (14039621)",
     "Name": "Nolan Matthews",
@@ -1518,6 +1656,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 2.76
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Landry Weber (14039624)",
     "Name": "Landry Weber",
@@ -1529,6 +1668,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 3.74
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Travis Brannan (14039627)",
     "Name": "Travis Brannan",
@@ -1540,6 +1680,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 2
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Isaac Ruoss (14039630)",
     "Name": "Isaac Ruoss",
@@ -1551,6 +1692,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 2.82
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Tyreek King-El (14039633)",
     "Name": "Tyreek King-El",
@@ -1562,6 +1704,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 1.92
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Dontae Crow (14039636)",
     "Name": "Dontae Crow",
@@ -1573,6 +1716,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 2.38
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Gunner Gentry (14039639)",
     "Name": "Gunner Gentry",
@@ -1584,6 +1728,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 3.8
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Jahmari Moore (14039642)",
     "Name": "Jahmari Moore",
@@ -1595,6 +1740,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0.1
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Isaiah Floyd (14039645)",
     "Name": "Isaiah Floyd",
@@ -1606,6 +1752,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 2.35
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Jeff Burroughs (14039648)",
     "Name": "Jeff Burroughs",
@@ -1617,6 +1764,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0.3
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Kirk Johnson (14039651)",
     "Name": "Kirk Johnson",
@@ -1628,6 +1776,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 1.5
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Mason Ramirez (14039654)",
     "Name": "Mason Ramirez",
@@ -1639,6 +1788,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Jaren Watkins (14039657)",
     "Name": "Jaren Watkins",
@@ -1650,6 +1800,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Jarrett Smith (14039660)",
     "Name": "Jarrett Smith",
@@ -1661,6 +1812,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Derrian Brown (14039663)",
     "Name": "Derrian Brown",
@@ -1672,6 +1824,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Reese Leitao (14039666)",
     "Name": "Reese Leitao",
@@ -1683,6 +1836,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 1.7
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Jordan Pouncey (14039669)",
     "Name": "Jordan Pouncey",
@@ -1694,6 +1848,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 1.95
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Kai Jarmon (14039672)",
     "Name": "Kai Jarmon",
@@ -1705,6 +1860,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Austin Hibbetts (14039675)",
     "Name": "Austin Hibbetts",
@@ -1716,6 +1872,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Joshua Moore (14039678)",
     "Name": "Joshua Moore",
@@ -1727,6 +1884,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Travis West (14039681)",
     "Name": "Travis West",
@@ -1738,6 +1896,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Al'Vonte Woodard (14039684)",
     "Name": "Al'Vonte Woodard",
@@ -1749,6 +1908,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 2.05
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Kartik Akkihal (14039687)",
     "Name": "Kartik Akkihal",
@@ -1760,6 +1920,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Jared Wiley (14039690)",
     "Name": "Jared Wiley",
@@ -1771,6 +1932,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 2.5
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Kai Money (14039693)",
     "Name": "Kai Money",
@@ -1782,6 +1944,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Parker Alford (14039696)",
     "Name": "Parker Alford",
@@ -1793,6 +1956,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Nathan Hatter (14039699)",
     "Name": "Nathan Hatter",
@@ -1804,6 +1968,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Kennedy Lewis (14039702)",
     "Name": "Kennedy Lewis",
@@ -1815,6 +1980,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 4.7
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Brayden Liebrock (14039705)",
     "Name": "Brayden Liebrock",
@@ -1826,6 +1992,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Marcus Washington (14039708)",
     "Name": "Marcus Washington",
@@ -1837,6 +2004,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 2.1
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Mason Woodward (14039711)",
     "Name": "Mason Woodward",
@@ -1848,6 +2016,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Micah Bernard (14039714)",
     "Name": "Micah Bernard",
@@ -1859,6 +2028,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Charlie Vincent (14039717)",
     "Name": "Charlie Vincent",
@@ -1870,6 +2040,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Faysal Aden (14039720)",
     "Name": "Faysal Aden",
@@ -1881,6 +2052,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Tyrone Young-Smith (14039723)",
     "Name": "Tyrone Young-Smith",
@@ -1892,6 +2064,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Hunter Thedford (14039726)",
     "Name": "Hunter Thedford",
@@ -1903,6 +2076,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 1.6
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Bapa Falemaka (14039729)",
     "Name": "Bapa Falemaka",
@@ -1914,6 +2088,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Dylan Slavens (14039732)",
     "Name": "Dylan Slavens",
@@ -1925,6 +2100,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Ali'i Niumatalolo (14039735)",
     "Name": "Ali'i Niumatalolo",
@@ -1936,6 +2112,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 2
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Thomas Yassmin (14039738)",
     "Name": "Thomas Yassmin",
@@ -1947,6 +2124,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Dominique Thompson (14039741)",
     "Name": "Dominique Thompson",
@@ -1958,6 +2136,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Donte Banton (14039744)",
     "Name": "Donte Banton",
@@ -1969,6 +2148,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 2
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Soa Rosales (14039747)",
     "Name": "Soa Rosales",
@@ -1980,6 +2160,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Devaughn Vele (14039750)",
     "Name": "Devaughn Vele",
@@ -1991,6 +2172,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Robbie Colenzo (14039753)",
     "Name": "Robbie Colenzo",
@@ -2002,6 +2184,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Cameron Gardner (14039756)",
     "Name": "Cameron Gardner",
@@ -2013,6 +2196,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Jason Heller (14039759)",
     "Name": "Jason Heller",
@@ -2024,6 +2208,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Kyrese Rowan (14039762)",
     "Name": "Kyrese Rowan",
@@ -2035,6 +2220,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Sebastian Macaluso (14039765)",
     "Name": "Sebastian Macaluso",
@@ -2046,6 +2232,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Patton Germann (14039768)",
     "Name": "Patton Germann",
@@ -2057,6 +2244,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Treshaun Ward (14039771)",
     "Name": "Treshaun Ward",
@@ -2068,6 +2256,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Raekwon Webb (14039774)",
     "Name": "Raekwon Webb",
@@ -2079,6 +2268,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Tyrell Moorer (14039777)",
     "Name": "Tyrell Moorer",
@@ -2090,6 +2280,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Michael Barulich (14039780)",
     "Name": "Michael Barulich",
@@ -2101,6 +2292,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "D'Anfernee McGriff (14039783)",
     "Name": "D'Anfernee McGriff",
@@ -2112,6 +2304,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Ontaria Wilson (14039786)",
     "Name": "Ontaria Wilson",
@@ -2123,6 +2316,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 6.96
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Keyshawn Helton (14039789)",
     "Name": "Keyshawn Helton",
@@ -2134,6 +2328,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 10.13
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Caleb Ward (14039792)",
     "Name": "Caleb Ward",
@@ -2145,6 +2340,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Caleb Faris (14039795)",
     "Name": "Caleb Faris",
@@ -2156,6 +2352,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Austin White (14039798)",
     "Name": "Austin White",
@@ -2167,6 +2364,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Tre Young (14039801)",
     "Name": "Tre Young",
@@ -2178,6 +2376,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Demetrious Flowers (14039804)",
     "Name": "Demetrious Flowers",
@@ -2189,6 +2388,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Tavian Gould (14039807)",
     "Name": "Tavian Gould",
@@ -2200,6 +2400,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Jared Bubak (14039810)",
     "Name": "Jared Bubak",
@@ -2211,6 +2412,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Grant Miles (14039813)",
     "Name": "Grant Miles",
@@ -2222,6 +2424,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Keith Davis (14039816)",
     "Name": "Keith Davis",
@@ -2233,6 +2436,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Tannor Park (14039819)",
     "Name": "Tannor Park",
@@ -2244,6 +2448,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Angel Ruiz (14039822)",
     "Name": "Angel Ruiz",
@@ -2255,6 +2460,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Josh Hart (14039825)",
     "Name": "Josh Hart",
@@ -2266,6 +2472,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Andre Johnson (14039828)",
     "Name": "Andre Johnson",
@@ -2277,6 +2484,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Brandon Pierce (14039831)",
     "Name": "Brandon Pierce",
@@ -2288,6 +2496,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 1.7
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Luke Sowa (14039834)",
     "Name": "Luke Sowa",
@@ -2299,6 +2508,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Mason Barta (14039837)",
     "Name": "Mason Barta",
@@ -2310,6 +2520,7 @@ const PLAYERS = [
     "AvgPointsPerGame": -0.2
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Adam Harter (14039840)",
     "Name": "Adam Harter",
@@ -2321,6 +2532,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Kirk Coomes (14039843)",
     "Name": "Kirk Coomes",
@@ -2332,6 +2544,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Jax Dineen (14039846)",
     "Name": "Jax Dineen",
@@ -2343,6 +2556,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 1.8
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Willie Garrison III (14039849)",
     "Name": "Willie Garrison III",
@@ -2354,6 +2568,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Thomas Grayson (14039852)",
     "Name": "Thomas Grayson",
@@ -2365,6 +2580,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Clyde Price (14039855)",
     "Name": "Clyde Price",
@@ -2376,6 +2592,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Jake Huggins (14039858)",
     "Name": "Jake Huggins",
@@ -2387,6 +2604,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Blaise Gammon (14039861)",
     "Name": "Blaise Gammon",
@@ -2398,6 +2616,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 1.7
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Eric Hommel (14039864)",
     "Name": "Eric Hommel",
@@ -2409,6 +2628,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Logan Long (14039867)",
     "Name": "Logan Long",
@@ -2420,6 +2640,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 1.3
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Dylan Wentzel (14039870)",
     "Name": "Dylan Wentzel",
@@ -2431,6 +2652,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0.7
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Samuel Wheeler (14039873)",
     "Name": "Samuel Wheeler",
@@ -2442,6 +2664,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 3.93
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Cameron Cotton (14039876)",
     "Name": "Cameron Cotton",
@@ -2453,6 +2676,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Thomas Helten (14039879)",
     "Name": "Thomas Helten",
@@ -2464,6 +2688,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Elliot Ollenburger (14039882)",
     "Name": "Elliot Ollenburger",
@@ -2475,6 +2700,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Seth Porter (14039885)",
     "Name": "Seth Porter",
@@ -2486,6 +2712,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0.6
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Konner Fox (14039888)",
     "Name": "Konner Fox",
@@ -2497,6 +2724,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Keenan Garber (14039891)",
     "Name": "Keenan Garber",
@@ -2508,6 +2736,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Brendan Mott (14039894)",
     "Name": "Brendan Mott",
@@ -2519,6 +2748,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Gabe Hoover (14039897)",
     "Name": "Gabe Hoover",
@@ -2530,6 +2760,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Mason Plante (14039900)",
     "Name": "Mason Plante",
@@ -2541,6 +2772,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Jonathon Lee (14039903)",
     "Name": "Jonathon Lee",
@@ -2552,6 +2784,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Justin Smith (14039906)",
     "Name": "Justin Smith",
@@ -2563,6 +2796,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 1.8
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Garrett Winn (14039909)",
     "Name": "Garrett Winn",
@@ -2574,6 +2808,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0.48
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Carlinos Acie (14039912)",
     "Name": "Carlinos Acie",
@@ -2585,6 +2820,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Jeremiah Boyd (14039915)",
     "Name": "Jeremiah Boyd",
@@ -2596,6 +2832,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "James Harris II (14039918)",
     "Name": "James Harris II",
@@ -2607,6 +2844,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0.83
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Josh Johnson (14039921)",
     "Name": "Josh Johnson",
@@ -2618,6 +2856,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Gavin Marts (14039924)",
     "Name": "Gavin Marts",
@@ -2629,6 +2868,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Brandon Madison (14039927)",
     "Name": "Brandon Madison",
@@ -2640,6 +2880,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Aleksei Yaramus (14039930)",
     "Name": "Aleksei Yaramus",
@@ -2651,6 +2892,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Emmett Davis (14039933)",
     "Name": "Emmett Davis",
@@ -2662,6 +2904,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Tanner Matthews (14039936)",
     "Name": "Tanner Matthews",
@@ -2673,6 +2916,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Chase Parrish (14039939)",
     "Name": "Chase Parrish",
@@ -2684,6 +2928,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Marcell Gleaton (14039942)",
     "Name": "Marcell Gleaton",
@@ -2695,6 +2940,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Devon High (14039945)",
     "Name": "Devon High",
@@ -2706,6 +2952,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Tyshawn Buckner (14039948)",
     "Name": "Tyshawn Buckner",
@@ -2717,6 +2964,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Devin Mathews (14039951)",
     "Name": "Devin Mathews",
@@ -2728,6 +2976,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Mark Walker (14039954)",
     "Name": "Mark Walker",
@@ -2739,6 +2988,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 1.3
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Michael Naze (14039957)",
     "Name": "Michael Naze",
@@ -2750,6 +3000,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Christian Hutchinson (14039960)",
     "Name": "Christian Hutchinson",
@@ -2761,6 +3012,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Trey Smith (14039963)",
     "Name": "Trey Smith",
@@ -2772,6 +3024,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 10.92
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Skyler Miller (14039966)",
     "Name": "Skyler Miller",
@@ -2783,6 +3036,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Tristan Dietz (14039969)",
     "Name": "Tristan Dietz",
@@ -2794,6 +3048,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Alphonzo Andrews Jr. (14039972)",
     "Name": "Alphonzo Andrews Jr.",
@@ -2805,6 +3060,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0.1
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Dawaiian McNeely (14039975)",
     "Name": "Dawaiian McNeely",
@@ -2816,6 +3072,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Jeremy Hollingsworth (14039978)",
     "Name": "Jeremy Hollingsworth",
@@ -2827,6 +3084,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Nate Weinman (14039981)",
     "Name": "Nate Weinman",
@@ -2838,6 +3096,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Justyn Stindt (14039984)",
     "Name": "Justyn Stindt",
@@ -2849,6 +3108,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Wyatt Wieland (14039987)",
     "Name": "Wyatt Wieland",
@@ -2860,6 +3120,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Devin Jennings (14039990)",
     "Name": "Devin Jennings",
@@ -2871,6 +3132,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Mason Gallegos (14039993)",
     "Name": "Mason Gallegos",
@@ -2882,6 +3144,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Chance Hofer (14039996)",
     "Name": "Chance Hofer",
@@ -2893,6 +3156,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Alex Brown (14039999)",
     "Name": "Alex Brown",
@@ -2904,6 +3168,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Parker Christensen (14040002)",
     "Name": "Parker Christensen",
@@ -2915,6 +3180,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Isaiah Neyor (14040005)",
     "Name": "Isaiah Neyor",
@@ -2926,6 +3192,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Treyton Welch (14040008)",
     "Name": "Treyton Welch",
@@ -2937,6 +3204,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Vance Brazile (14040011)",
     "Name": "Vance Brazile",
@@ -2948,6 +3216,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Deandre Bowman (14040014)",
     "Name": "Deandre Bowman",
@@ -2959,6 +3228,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Darius Stubbs (14040017)",
     "Name": "Darius Stubbs",
@@ -2970,6 +3240,7 @@ const PLAYERS = [
     "AvgPointsPerGame": -0.3
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Dawson Hill (14040020)",
     "Name": "Dawson Hill",
@@ -2981,6 +3252,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "RB",
     "Name + ID": "Tucker Gregg (14040023)",
     "Name": "Tucker Gregg",
@@ -2992,6 +3264,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 1.93
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Christian Owens (14040026)",
     "Name": "Christian Owens",
@@ -3003,6 +3276,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Camrin Knight (14040029)",
     "Name": "Camrin Knight",
@@ -3014,6 +3288,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Matlin Marshall (14040032)",
     "Name": "Matlin Marshall",
@@ -3025,6 +3300,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 2.57
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Bryson Duckworth (14040035)",
     "Name": "Bryson Duckworth",
@@ -3036,6 +3312,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Kerryon Richardson (14040038)",
     "Name": "Kerryon Richardson",
@@ -3047,6 +3324,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Donavon Grier (14040041)",
     "Name": "Donavon Grier",
@@ -3058,6 +3336,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 1.4
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Herman McCray (14040044)",
     "Name": "Herman McCray",
@@ -3069,6 +3348,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Spencer Gaddis (14040047)",
     "Name": "Spencer Gaddis",
@@ -3080,6 +3360,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Avery Reece (14040050)",
     "Name": "Avery Reece",
@@ -3091,6 +3372,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Cadarrius Thompson (14040053)",
     "Name": "Cadarrius Thompson",
@@ -3102,6 +3384,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 2.8
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Jamari Thrash (14040056)",
     "Name": "Jamari Thrash",
@@ -3113,6 +3396,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 3.7
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Drake Holloway (14040059)",
     "Name": "Drake Holloway",
@@ -3124,6 +3408,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Maysoe Wiley (14040062)",
     "Name": "Maysoe Wiley",
@@ -3135,6 +3420,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Sam Elegreet (14040065)",
     "Name": "Sam Elegreet",
@@ -3146,6 +3432,7 @@ const PLAYERS = [
     "AvgPointsPerGame": 0
   },
   {
+    "Filtered": true,
     "Position": "WR",
     "Name + ID": "Makari Pruitt (14040068)",
     "Name": "Makari Pruitt",
