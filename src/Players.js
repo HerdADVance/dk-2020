@@ -124,7 +124,7 @@ const Players = (props) => {
 
 	// CLICK EVENTS
 	function handlePlayerClick(pid){
-		console.log(pid)
+		setClickedPlayer(pid)
 	}
 
   	function handlePositionClick(position){
@@ -211,6 +211,7 @@ const Players = (props) => {
 								salary={player.Salary}
 								team={player.TeamAbbrev}
 								handlePlayerClick={handlePlayerClick}
+								clickedPlayer={clickedPlayer}
 							/>
 						))}
 					</tbody>
