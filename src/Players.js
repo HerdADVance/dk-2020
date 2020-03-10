@@ -18,11 +18,14 @@ const Players = (props) => {
 
 	const POSITIONS = slateInfo.classic.CFB.positions
   	const ROSTER = slateInfo.classic.CFB.roster
-
-  	const [teams, setTeams] = useState([])
+  	const [TEAMS, setTEAMS] = useState([])
 
   	const [clickedPosition, setClickedPosition] = useState('ALL')
+  	const [filteredPositions, setFilteredPositions] = useState(['QB', 'RB', 'WR'])
   	const [clickedTeam, setClickedTeam] = useState('ALL')
+  	const [filteredTeams, setFilteredTeams] = useState(TEAMS)
+
+  	const [clickedPlayer, setClickedPlayer] = useState(null)
 
 
 
@@ -31,7 +34,8 @@ const Players = (props) => {
 		console.log("Affecting")
 
 		let teams = getTeams()
-		setTeams(teams)
+		setTEAMS(teams)
+		setFilteredTeams(teams)
 	
 	}, []);
 
@@ -43,55 +47,46 @@ const Players = (props) => {
 		let copy = [...players]
 
 		copy = forEach(copy, function(player){
-	     	if(includes(positions, player.Position)) player.Filtered = true
+	     	if(includes(positions, player.Position) && includes(teams, player.TeamAbbrev)) player.Filtered = true
 	     		else player.Filtered = false
 	    });
 
 	    return copy
 	}
 
-	function filterByPosition(clickedPosition){
-
+	// Filter by position(s)
+	function filterByPositions(position){
 		let filteredPositions = []
-	    
-	    switch(clickedPosition){
+	    switch(position){
 	    	case 'ALL':
 	      		filteredPositions = POSITIONS
 	      		break;
-
 	    	default:
 	      		let foundAcceptedPosition = ROSTER.filter(function (spot) {
-	        		return spot.position === clickedPosition
+	        		return spot.position === position
 	      		});
-
 	      		filteredPositions = foundAcceptedPosition[0].accepts;
 	    		break;
 	   	}
-
 	   	return filteredPositions
 	}
 
-	// function filterByTeam(clickedTeam){
+	// Filter by team(s)
+	function filterByTeams(team){
+		let filteredTeams = []
+		switch(team){
+	    	case 'ALL':
+	      		filteredTeams = TEAMS
+	      		break;
 
-	// 	let filteredTeams = []
-	    
-	//     switch(clickedPosition){
-	//     	case 'ALL':
-	//       		filteredPositions = POSITIONS
-	//       		break;
+	    	default:
+	      		filteredTeams = [team]
+	      		break;
+	   	}
+	   	return filteredTeams
+	}
 
-	//     	default:
-	//       		let foundAcceptedPosition = ROSTER.filter(function (spot) {
-	//         		return spot.position === clickedPosition
-	//       		});
-
-	//       		filteredPositions = foundAcceptedPosition[0].accepts;
-	//     		break;
-	//    	}
-
-	//    	return filteredPositions
-	// }
-
+	// Get teams on load
 	function getTeams(){
 		let sortedGames = [];
 
@@ -126,15 +121,23 @@ const Players = (props) => {
 	}
 
 
+
 	// CLICK EVENTS
+	function handlePlayerClick(pid){
+		console.log(pid)
+	}
+
   	function handlePositionClick(position){
   
   		// Update selected box
     	setClickedPosition(position)
     	
+    	// Update filtered positions
+    	let positionsToFilter = filterByPositions(position)
+    	setFilteredPositions(positionsToFilter)
+
     	// Filter players
-    	let positionsToFilter = filterByPosition(position)
-    	let filteredPlayers = filterPlayers(positionsToFilter)
+    	let filteredPlayers = filterPlayers(positionsToFilter, filteredTeams)
     	setPlayers(filteredPlayers)
   	}
 
@@ -143,9 +146,11 @@ const Players = (props) => {
   		// Update selected team
     	setClickedTeam(team)
 
+    	let teamsToFilter = filterByTeams(team)
+    	setFilteredTeams(teamsToFilter)
+
     	// Filter players
-    	let teamToFilter = team
-    	let filteredPlayers = filterPlayers(teamsToFilter)
+    	let filteredPlayers = filterPlayers(filteredPositions, teamsToFilter)
     	setPlayers(filteredPlayers)
 
   	}
@@ -171,7 +176,7 @@ const Players = (props) => {
 
 	        <div>
 	        	<ul className="sort-players sort-games clickable">
-	          		{teams.map((team) => (
+	          		{TEAMS.map((team) => (
 	                	<li
 	                  	key={team}
 	                  	className={team === clickedTeam? 'selected' : ''}
@@ -205,6 +210,7 @@ const Players = (props) => {
 								position={player.Position}
 								salary={player.Salary}
 								team={player.TeamAbbrev}
+								handlePlayerClick={handlePlayerClick}
 							/>
 						))}
 					</tbody>
