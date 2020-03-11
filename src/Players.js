@@ -14,6 +14,8 @@ import Player from './Player'
 
 const Players = (props) => {
 
+	const { numLineups } = props
+
 	const [players, setPlayers] = useState(PLAYERS);
 
 	const POSITIONS = slateInfo.classic.CFB.positions
@@ -212,6 +214,7 @@ const Players = (props) => {
 								team={player.TeamAbbrev}
 								handlePlayerClick={handlePlayerClick}
 								clickedPlayer={clickedPlayer}
+								numLineups={numLineups}
 							/>
 						))}
 					</tbody>

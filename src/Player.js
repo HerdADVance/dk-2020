@@ -4,7 +4,7 @@ import ClickedPlayer from './ClickedPlayer'
 
 const Player = props => {
 
-	const { id, filtered, name, position, salary, team, handlePlayerClick, clickedPlayer } = props;
+	const { id, filtered, name, position, salary, team, handlePlayerClick, clickedPlayer, numLineups } = props;
 
 	if(filtered){
 
@@ -25,6 +25,7 @@ const Player = props => {
 				<tr>
 					<ClickedPlayer
 						name={name}
+						numLineups={numLineups}
 					/>
 				</tr>
 			:
