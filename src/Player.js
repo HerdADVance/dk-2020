@@ -21,9 +21,17 @@ const Player = props => {
 				<td className="team"></td>
 			</tr>
 			
-			{clickedPlayer === id? <tr><ClickedPlayer/></tr> : ''}
-			</>
+			{clickedPlayer === id? 
+				<tr>
+					<ClickedPlayer
+						name={name}
+					/>
+				</tr>
+			:
+				''
+			}
 
+			</>
 			
 		);
 
