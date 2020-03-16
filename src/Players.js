@@ -14,7 +14,7 @@ import Player from './Player'
 
 const Players = (props) => {
 
-	const { numLineups } = props
+	const { numLineups, addPlayerToLineups } = props
 
 	const [players, setPlayers] = useState(PLAYERS);
 
@@ -213,6 +213,7 @@ const Players = (props) => {
 								salary={player.Salary}
 								team={player.TeamAbbrev}
 								handlePlayerClick={handlePlayerClick}
+								addPlayerToLineups={addPlayerToLineups}
 								clickedPlayer={clickedPlayer}
 								numLineups={numLineups}
 							/>

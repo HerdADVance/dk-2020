@@ -2,36 +2,21 @@ import React, { useState } from "react";
 
 import slateInfo from './data/slateInfo'
 
+import Lineup from './Lineup'
+
 const Lineups = (props) => {
 
-	const [lineups, setLineups] = useState(createLineups(20));
-
-
-	function createLineup(id){
-		let lineup = {
-		  id: id,
-		  salary: 50000,
-		  roster: slateInfo.classic.CFB.roster,
-		  positions: ["QB", "RB", "WR", "FX", "ALL"]
-		}
-		return lineup;
-	}
-
-	function createLineups(num){
-		let id = 1
-		let lineups = []
-		while(id <= num){
-		  lineups.push(createLineup(id))
-		  id ++
-		}
-		return lineups
-	}
-
+	const{ lineups, handleSlotClick } = props
 
 	return (
 		lineups.map(lineup => {
 			return(
-				<h1>{lineup.id}</h1>
+				<Lineup
+					key={lineup.id}
+					id={lineup.id}
+					roster={lineup.roster}
+					handleSlotClick={handleSlotClick}
+				/>
 			)
 		})
 	);

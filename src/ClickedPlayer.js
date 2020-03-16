@@ -5,18 +5,22 @@ import 'rc-slider/assets/index.css';
 
 const ClickedPlayer = props => {
 
-	const { name, numLineups } = props
+	const { id, name, numLineups, addPlayerToLineups } = props
 
 	const [sliderValue, setSliderValue] = useState(0)
 
-	function handleSliderButtonClick(){
-		console.log("clicked slider button")
+
+	// EVENTS 
+	function handleSliderButtonClick(id, sliderValue){
+		addPlayerToLineups(id, sliderValue)
 	}
 
 	function handleSliderChange(value){
 		setSliderValue(value)
 	}
 
+
+	// JSX
 	return(
 		<td colSpan="5">
 			<p>{name} is in {0} of {numLineups} lineups.</p>
@@ -28,7 +32,7 @@ const ClickedPlayer = props => {
 				onChange={handleSliderChange}
 			/>
 			<button
-				onClick={() => handleSliderButtonClick()}
+				onClick={() => handleSliderButtonClick(id, sliderValue)}
 			>
 				Add {name} to {sliderValue} lineups
 			</button>
