@@ -5,10 +5,12 @@ import { Link } from "@reach/router";
 
 import GlobalContext from './GlobalContext';
 
-import slateInfo from './data/slateInfo'
+import {createLineup, createLineups} from './util/lineups-create'
+import FindPositionIds from './util/lineup-util'
 
 import shuffle from 'lodash/shuffle'
 import includes from 'lodash/includes'
+import forEach from 'lodash/forEach'
 
 import Init from './Init'
 import Players from './Players'
@@ -23,65 +25,70 @@ const App = () => {
 
   
   // FUNCTIONS
-  function addPlayerToLineups(pid, toAdd){
+  function addPlayerToLineups(pid, position, numToAdd, random){
 
-    //let copyLineups = shuffle(lineups)
+    console.log(numToAdd)
+
+    // Copy and shuffle if need be
     let copyLineups = lineups
-    console.log(copyLineups)
+    if(random) copyLineups = shuffle(copyLineups)
 
-    console.log(lineups[0].roster[0].player)
-    console.log(lineups[1].roster[0].player)
+    // Round up appropriate slot ID's for position
+    let positionIds = FindPositionIds(position)
+
+    // Looping through lineups to see if eligible to add player
+    let willAddTo = []
+    let added = 0
+    
+    forEach(copyLineups, function(lineup){
+      
+      if(added < numToAdd){
+        forEach(lineup.roster, function(slot){
+         
+          if(includes(positionIds, slot.id) && !slot.player){
+            added ++
+            willAddTo.push(lineup.id)
+          }
+
+        })
+      }
+
+    })
+
+    console.log(willAddTo)
 
     let included = [2,4,5]
 
-    let updatedLineups = copyLineups.map(el => (includes(included, el.id) ? 
-      {
-        ...el, 
-        roster: [...el.roster].map(slot => (slot.id ==1 ?
+    // let updatedLineups = copyLineups.map(el => (includes(included, el.id) ? 
+    //   {
+    //     ...el, 
+    //     roster: [...el.roster].map(slot => (slot.id ==1 ?
 
-        {
-          ...slot,
-          player: pid
-        }
-        :
-          slot
-        ))
-      } 
-      : 
-        el
-    ))
+    //     {
+    //       ...slot,
+    //       player: pid
+    //     }
+    //     :
+    //       slot
+    //     ))
+    //   } 
+    //   : 
+    //     el
+    // ))
 
-    setLineups(updatedLineups)
+    //setLineups(updatedLineups)
   }
 
   function isSlotOpen(lid, sid){
 
   }
 
-  function createLineup(id){
-    let lineup = {
-      id: id,
-      salary: slateInfo.classic.CFB.salary,
-      roster: slateInfo.classic.CFB.roster,
-      positions: slateInfo.classic.CFB.positions
-    }
-    return lineup;
-  }
-
-  function createLineups(num){
-    let lid = 1
-    let createdLineups = []
-    while(lid <= num){
-      createdLineups.push(createLineup(lid))
-      lid ++
-    }
-    setLineups(createdLineups)
-  }
 
   function handleInitClick(numLineups){
     setShowInit(false)
     setNumLineups(parseInt(numLineups))
-    createLineups(numLineups)
+    let createdLineups = createLineups(numLineups)
+    setLineups(createdLineups)
   }
 
   function handleSlotClick(position){

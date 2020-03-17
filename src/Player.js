@@ -26,6 +26,7 @@ const Player = props => {
 					<ClickedPlayer
 						id={id}
 						name={name}
+						position={position}
 						numLineups={numLineups}
 						addPlayerToLineups={addPlayerToLineups}
 					/>

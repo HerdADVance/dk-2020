@@ -60,6 +60,10 @@ button:focus{
 
 
 /* GAMETYPE SELECT */
+.init button{
+  height: 60px;
+  width: 300px;
+}
 .overlay{
   background: rgba(0,0,0,0.85);
   height: 100%;
