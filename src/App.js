@@ -8,6 +8,7 @@ import GlobalContext from './GlobalContext';
 import slateInfo from './data/slateInfo'
 
 import shuffle from 'lodash/shuffle'
+import includes from 'lodash/includes'
 
 import Init from './Init'
 import Players from './Players'
@@ -24,13 +25,16 @@ const App = () => {
   // FUNCTIONS
   function addPlayerToLineups(pid, toAdd){
 
-    let copyLineups = shuffle(lineups)
+    //let copyLineups = shuffle(lineups)
+    let copyLineups = lineups
     console.log(copyLineups)
 
     console.log(lineups[0].roster[0].player)
     console.log(lineups[1].roster[0].player)
 
-    let updatedLineups = lineups.map(el => (el.id ==1 ? 
+    let included = [2,4,5]
+
+    let updatedLineups = copyLineups.map(el => (includes(included, el.id) ? 
       {
         ...el, 
         roster: [...el.roster].map(slot => (slot.id ==1 ?
@@ -48,6 +52,10 @@ const App = () => {
     ))
 
     setLineups(updatedLineups)
+  }
+
+  function isSlotOpen(lid, sid){
+
   }
 
   function createLineup(id){
