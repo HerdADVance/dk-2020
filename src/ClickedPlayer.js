@@ -12,7 +12,7 @@ const ClickedPlayer = props => {
 
 	// EVENTS 
 	function handleSliderButtonClick(sliderValue){
-		addPlayerToLineups(id, position, sliderValue)
+		addPlayerToLineups(id, position, sliderValue, true)
 	}
 
 	function handleSliderChange(value){

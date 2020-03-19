@@ -11,6 +11,7 @@ import FindPositionIds from './util/lineup-util'
 import shuffle from 'lodash/shuffle'
 import includes from 'lodash/includes'
 import forEach from 'lodash/forEach'
+import orderBy from 'lodash/orderBy'
 
 import Init from './Init'
 import Players from './Players'
@@ -27,8 +28,6 @@ const App = () => {
   // FUNCTIONS
   function addPlayerToLineups(pid, position, numToAdd, random){
 
-    console.log(numToAdd)
-
     // Copy and shuffle if need be
     let copyLineups = lineups
     if(random) copyLineups = shuffle(copyLineups)
@@ -37,46 +36,49 @@ const App = () => {
     let positionIds = FindPositionIds(position)
 
     // Looping through lineups to see if eligible to add player
-    let willAddTo = []
-    let added = 0
+    let willAddTo = {}
+    let lineupsAddedTo = []
     
-    forEach(copyLineups, function(lineup){
-      
-      if(added < numToAdd){
-        forEach(lineup.roster, function(slot){
-         
-          if(includes(positionIds, slot.id) && !slot.player){
-            added ++
-            willAddTo.push(lineup.id)
-          }
+    for(var i = 0; i < copyLineups.length; i++){
 
-        })
+      let lineup = copyLineups[i];
+      
+      for(var j = 0; j < positionIds.length; j++){
+        
+        let slotId = positionIds[j]
+        let slot = lineup.roster[slotId]
+
+        if(!slot.player){
+          let lineupId = lineup.id
+          willAddTo[lineupId] = slotId
+          lineupsAddedTo.push(lineupId)
+          break
+        }
       }
 
-    })
+      if(lineupsAddedTo.length == numToAdd) break
+    }
 
-    console.log(willAddTo)
+    copyLineups = orderBy(copyLineups, ['id'],['asc'])
 
-    let included = [2,4,5]
+    let updatedLineups = copyLineups.map(el => (includes(lineupsAddedTo, el.id) ? 
+      {
+        ...el, 
+        roster: [...el.roster].map(slot => (slot.id == willAddTo[el.id] ?
 
-    // let updatedLineups = copyLineups.map(el => (includes(included, el.id) ? 
-    //   {
-    //     ...el, 
-    //     roster: [...el.roster].map(slot => (slot.id ==1 ?
+        {
+          ...slot,
+          player: pid
+        }
+        :
+          slot
+        ))
+      } 
+      : 
+        el
+    ))
 
-    //     {
-    //       ...slot,
-    //       player: pid
-    //     }
-    //     :
-    //       slot
-    //     ))
-    //   } 
-    //   : 
-    //     el
-    // ))
-
-    //setLineups(updatedLineups)
+    setLineups(updatedLineups)
   }
 
   function isSlotOpen(lid, sid){

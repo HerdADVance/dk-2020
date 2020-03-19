@@ -5,9 +5,16 @@ const slateInfo = {
 			salary: 50000,
 			roster: [
 				{
-					"id": 1,
+					"id": 0,
 					"position": "QB",
 			        "accepts": ["QB"],
+			        "clicked": false,
+			        "player": false
+			    },
+			    {
+			    	"id": 1,
+					"position": "RB",
+			        "accepts": ["RB"],
 			        "clicked": false,
 			        "player": false
 			    },
@@ -20,8 +27,8 @@ const slateInfo = {
 			    },
 			    {
 			    	"id": 3,
-					"position": "RB",
-			        "accepts": ["RB"],
+					"position": "WR",
+			        "accepts": ["WR"],
 			        "clicked": false,
 			        "player": false
 			    },
@@ -41,20 +48,13 @@ const slateInfo = {
 			    },
 			    {
 			    	"id": 6,
-					"position": "WR",
-			        "accepts": ["WR"],
-			        "clicked": false,
-			        "player": false
-			    },
-			    {
-			    	"id": 7,
 					"position": "FX",
 			        "accepts": ["RB", "WR"],
 			        "clicked": false,
 			        "player": false
 			    },
 			    {
-			    	"id": 8,
+			    	"id": 7,
 					"position": "SF",
 			        "accepts": ["QB", "RB", "WR"],
 			        "clicked": false,
