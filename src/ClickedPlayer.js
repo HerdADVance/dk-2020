@@ -8,11 +8,15 @@ const ClickedPlayer = props => {
 	const { id, name, position, numLineups, addPlayerToLineups } = props
 
 	const [sliderValue, setSliderValue] = useState(0)
+	const [random, setRandom] = useState(false)
 
 
 	// EVENTS 
+	function handleRandomCheckboxClick(){
+		setRandom(!random)
+	}
 	function handleSliderButtonClick(sliderValue){
-		addPlayerToLineups(id, position, sliderValue, true)
+		addPlayerToLineups(id, position, sliderValue, random)
 	}
 
 	function handleSliderChange(value){
@@ -36,6 +40,14 @@ const ClickedPlayer = props => {
 			>
 				Add {name} to {sliderValue} lineups
 			</button>
+
+			<div>
+				<label>Random:</label>
+				<input
+					type="checkbox"
+					onChange={handleRandomCheckboxClick}
+				/>
+			</div>
 		</td>
 	)
 
