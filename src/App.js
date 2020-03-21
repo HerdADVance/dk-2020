@@ -49,11 +49,14 @@ const App = () => {
         let slot = lineup.roster[slotId]
 
         if(!slot.player){
-          let lineupId = lineup.id
-          willAddTo[lineupId] = slotId
-          lineupsAddedTo.push(lineupId)
-          break
+          if(!isPlayerInLineup(pid, lineup, positionIds)){ 
+            let lineupId = lineup.id
+            willAddTo[lineupId] = slotId
+            lineupsAddedTo.push(lineupId)
+            break
+          }
         }
+
       }
 
       if(lineupsAddedTo.length == numToAdd) break
@@ -81,8 +84,14 @@ const App = () => {
     setLineups(updatedLineups)
   }
 
-  function isSlotOpen(lid, sid){
-
+  function isPlayerInLineup(pid, lineup, positions){
+    for(var i = 0; i < positions.length; i++){
+      let slotId = positions[i]
+      console.log(pid)
+      console.log(lineup.roster[slotId])
+      if(lineup.roster[slotId].player == pid) return true
+    }
+    return false
   }
 
 
